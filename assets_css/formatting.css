@@ -1,0 +1,68 @@
+@charset "utf-8";
+body  {
+    min-height: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: url(../assets/forPortfolio.png);
+    background-repeat: repeat;
+    background-clip: content-box;
+}
+.intro_paragraph {
+    background-color: rgba(0,0,0,0.70);
+    color: rgba(255,255,255,1.00);
+    border-left: medium solid rgba(72,72,72,0.90);
+    border-right: medium solid rgba(72,72,72,0.90);
+    border-bottom: medium solid rgba(102,102,102,0.90);
+    border-top: medium solid rgba(72,72,72,0.90);
+    font-style: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    vertical-align: baseline;
+    text-indent: 4px;
+    font-size: 40px;
+}
+.home_page_body {
+    color: rgba(212,207,207,1.00);
+    text-shadow: 2px 3px rgba(0,0,0,0.56);
+    text-align: left;
+    border-width: 50%;
+    font-size: 25px;
+}
+.upper_home_page {
+    color: rgba(212,207,207,1.00);
+    text-shadow: 2px 3px 0 rgba(0,0,0,0.56);
+}
+.forThis {
+    color: rgba(212,207,207,1.00);
+    text-shadow: 2px 3px 1px rgba(0,0,0,0.56);
+    font-style: italic;
+}
+
+a:link {
+  color: antiquewhite;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+image {
+    border: medium double rgba(255,0,4,1.00);
+}
+form {
+    border-width: medium;
+    background-color: rgba(46,46,46,0.91);
+    color: rgba(181,181,181,1.00);
+    text-shadow: 0px 0px 3px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    display: table;
+    text-align: center;
+}
+submit {
+    color: rgba(255,0,4,1.00);
+    background-color: rgba(221,0,3,1.00);
+}
